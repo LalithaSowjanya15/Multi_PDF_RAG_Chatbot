@@ -28,6 +28,26 @@ A Streamlit-based chatbot that allows users to upload multiple PDF documents and
 4. Extracted PDF content and the question are sent to Gemini.
 5. Gemini generates an answer based on the uploaded PDF content.
 
+## Project Structure
+
+```text
+Multi_PDF_RAG_Chatbot/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+### Local Files (Not Uploaded to GitHub)
+
+```text
+.env
+venv/
+__pycache__/
+```
+
+
 ## Installation and Setup
 
 ### 1. Create a Virtual Environment
